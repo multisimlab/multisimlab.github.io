@@ -84,13 +84,13 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '韩熠南',
-        title: '计算数学（博士）',
+        title: '计算数学 (博士)',
         desc: orgLine('计算机学院')
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '王金霖',
-        title: '计算数学（博士）',
+        title: '计算数学 (博士)',
         desc: orgLine('系统工程学院')
       }
     ]
@@ -112,7 +112,7 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '李锦辉',
-        title: '计算数学（博士）',
+        title: '计算数学 (博士)',
         desc: orgLine('计算机学院')
       },
       {
@@ -124,19 +124,19 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '黄江波',
-        title: '大数据技术与工程（硕士）',
+        title: '大数据技术与工程 (硕士)',
         desc: orgLine('计算机学院')
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '黄全盼',
-        title: '大数据技术与工程（硕士）',
+        title: '大数据技术与工程 (硕士)',
         desc: orgLine('计算机学院')
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '马逢睿',
-        title: '计算机技术（硕士）',
+        title: '计算机技术 (硕士)',
         desc: orgLine('计算机学院')
       },
       {
@@ -153,37 +153,37 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '李瑞鸣',
-        title: '计算数学（博士）',
+        title: '计算数学 (博士)',
         desc: orgLine('计算机学院')
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '林铭盛',
-        title: '系统科学（硕士）',
+        title: '系统科学 (硕士)',
         desc: orgLine('系统工程学院')
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '刘乃铭',
-        title: '系统科学（硕士）',
+        title: '系统科学 (硕士)',
         desc: orgLine('系统工程学院')
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '宋雨婷',
-        title: '计算机技术（硕士）',
+        title: '计算机技术 (硕士)',
         desc: orgLine('计算机学院')
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '王梓菲',
-        title: '计算机技术（硕士）',
+        title: '计算机技术 (硕士)',
         desc: orgLine('计算机学院')
       },
       {
         avatar: '/images/members/wu-ying-fei.png',
         name: '吴莹菲',
-        title: '计算机科学与技术（硕士）',
+        title: '计算机科学与技术 (硕士)',
         desc: orgLine('计算机学院')
       }
     ]
