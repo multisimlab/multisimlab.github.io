@@ -64,6 +64,12 @@ export const researchers: DefaultTheme.TeamMember[] = [
     name: '杨青青',
     title: '研究员',
     desc: '（邮箱待补充）'
+  },
+  {
+    avatar: '/images/members/avatar-placeholder.svg',
+    name: '曾剑峰',
+    title: '研究员',
+    desc: '（邮箱待补充）'
   }
 ]
 
@@ -89,6 +95,18 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
     ]
   },
   {
+    year: '2024 级',
+    members: [
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '黄洁华',
+        title: '硕士',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      }
+    ]
+  },
+  {
     year: '2025 级',
     members: [
       {
@@ -96,6 +114,13 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         name: '李锦辉',
         title: '计算数学（博士）',
         org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '肖择宁',
+        title: '博士',
+        org: '系统工程学院',
         desc: '（邮箱待补充）'
       },
       {
@@ -116,6 +141,13 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         avatar: '/images/members/avatar-placeholder.svg',
         name: '马逢睿',
         title: '计算机技术（硕士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '魏逸坤',
+        title: '硕士',
         org: '计算机学院',
         desc: '（邮箱待补充）'
       }
