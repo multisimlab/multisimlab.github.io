@@ -73,7 +73,7 @@ export const researchers: DefaultTheme.TeamMember[] = [
   }
 ]
 
-/** 在读学生：按年级；同年级内先博士后硕士，再按姓名拼音排序 */
+/** 在读学生：按年级；同年级内先博士后硕士，再按姓名拼音排序（不展示邮箱） */
 export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] }[] = [
   {
     year: '2023 级',
@@ -82,15 +82,13 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         avatar: '/images/members/avatar-placeholder.svg',
         name: '韩熠南',
         title: '计算数学（博士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '王金霖',
         title: '计算数学（博士）',
-        org: '系统工程学院',
-        desc: '（邮箱待补充）'
+        org: '系统工程学院'
       }
     ]
   },
@@ -101,8 +99,7 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         avatar: '/images/members/avatar-placeholder.svg',
         name: '黄洁华',
         title: '硕士',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       }
     ]
   },
@@ -113,43 +110,37 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         avatar: '/images/members/avatar-placeholder.svg',
         name: '李锦辉',
         title: '计算数学（博士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '肖择宁',
         title: '博士',
-        org: '系统工程学院',
-        desc: '（邮箱待补充）'
+        org: '系统工程学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '黄江波',
         title: '大数据技术与工程（硕士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '黄全盼',
         title: '大数据技术与工程（硕士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '马逢睿',
         title: '计算机技术（硕士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '魏逸坤',
         title: '硕士',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       }
     ]
   },
@@ -160,43 +151,37 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         avatar: '/images/members/avatar-placeholder.svg',
         name: '李瑞鸣',
         title: '计算数学（博士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '林铭盛',
         title: '系统科学（硕士）',
-        org: '系统工程学院',
-        desc: '（邮箱待补充）'
+        org: '系统工程学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '刘乃铭',
         title: '系统科学（硕士）',
-        org: '系统工程学院',
-        desc: '（邮箱待补充）'
+        org: '系统工程学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '宋雨婷',
         title: '计算机技术（硕士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '王梓菲',
         title: '计算机技术（硕士）',
-        org: '计算机学院',
-        desc: '（邮箱待补充）'
+        org: '计算机学院'
       },
       {
         avatar: '/images/members/wu-ying-fei.png',
         name: '吴莹菲',
         title: '计算机科学与技术（硕士）',
-        org: '计算机学院',
-        desc: '<a href="mailto:wuyf237@mail2.sysu.edu.cn">wuyf237@mail2.sysu.edu.cn</a>'
+        org: '计算机学院'
       }
     ]
   }
