@@ -61,8 +61,20 @@ export const researchers: DefaultTheme.TeamMember[] = [
   }
 ]
 
-/** 在读学生：仅按入学年级，不区分硕博 */
+/** 在读学生：仅按入学年级，不区分硕博（年级新在前，当前最新级放最后） */
 export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] }[] = [
+  {
+    year: '2025 级',
+    members: [
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '马逢睿',
+        title: '计算机技术（硕士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      }
+    ]
+  },
   {
     year: '2026 级',
     members: [
@@ -74,10 +86,6 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         desc: '<a href="mailto:wuyf237@mail2.sysu.edu.cn">wuyf237@mail2.sysu.edu.cn</a>'
       }
     ]
-  },
-  {
-    year: '2025 级',
-    members: []
   }
 ]
 
