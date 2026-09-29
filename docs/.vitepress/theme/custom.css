@@ -118,3 +118,211 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* ========== 课题组成员页 ========== */
+
+.VPTeamPage .VPTeamPageTitle .title {
+    letter-spacing: -0.02em;
+}
+
+.VPTeamMembersItem .desc a {
+    color: var(--vp-c-brand-1);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.VPTeamMembersItem .desc a:hover {
+    text-decoration: underline;
+}
+
+.VPTeamMembersItem .desc .member-detail-link {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.members-empty-box {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 28px 20px;
+    border: 1px dashed var(--vp-c-divider);
+    border-radius: 12px;
+    background: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-3);
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.members-empty-box.compact {
+    max-width: 100%;
+    padding: 16px 16px;
+    margin-bottom: 8px;
+}
+
+.members-empty-inline {
+    margin: 0 0 8px;
+    color: var(--vp-c-text-3);
+    font-size: 14px;
+}
+
+/* 在读学生：年级子标题，无卡片 */
+
+.student-groups {
+    max-width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.student-year {
+    padding: 0;
+}
+
+.student-year-title {
+    margin: 0 0 16px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--vp-c-text-1);
+    line-height: 1.4;
+}
+
+.student-year .VPTeamMembers {
+    margin-bottom: 0;
+}
+
+/* 毕业成员表格 */
+
+.alumni-block {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.alumni-year {
+    padding: 24px 24px 8px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 16px;
+    background: var(--vp-c-bg);
+    overflow-x: auto;
+}
+
+.alumni-year h3 {
+    margin: 0 0 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vp-c-text-1);
+}
+
+.alumni-year table {
+    display: table;
+    width: 100%;
+    margin: 0 0 16px;
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.alumni-year thead th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--vp-c-text-2);
+    border-bottom: 1px solid var(--vp-c-divider);
+    padding: 10px 12px;
+    white-space: nowrap;
+}
+
+.alumni-year tbody td {
+    padding: 12px;
+    border-bottom: 1px solid var(--vp-c-divider);
+    color: var(--vp-c-text-1);
+    vertical-align: top;
+}
+
+.alumni-year tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.alumni-year tbody tr:hover td {
+    background: var(--vp-c-bg-soft);
+}
+
+.alumni-year th:nth-child(1),
+.alumni-year td:nth-child(1) {
+    width: 18%;
+}
+
+.alumni-year th:nth-child(2),
+.alumni-year td:nth-child(2) {
+    width: 14%;
+}
+
+.alumni-overview {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    color: var(--vp-c-text-3);
+    letter-spacing: 0.02em;
+}
+
+/* 毕业成员：与 Team 分区标题对齐 */
+
+.members-alumni-wrap {
+    padding: 48px 32px 72px;
+}
+
+.members-alumni-head {
+    position: relative;
+    max-width: 1152px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.members-alumni-head .title-line {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--vp-c-divider);
+}
+
+.members-alumni-title {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    background-color: var(--vp-c-bg);
+    color: var(--vp-c-text-2);
+}
+
+.members-alumni-lead {
+    margin: 12px auto 0;
+    max-width: 480px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--vp-c-text-2);
+}
+
+@media (max-width: 640px) {
+    .alumni-year {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .alumni-year table {
+        font-size: 13px;
+    }
+
+    .alumni-year thead th,
+    .alumni-year tbody td {
+        padding: 10px 8px;
+    }
+}

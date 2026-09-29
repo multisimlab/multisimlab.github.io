@@ -73,18 +73,6 @@ export default defineConfig({
         }
       ],
 
-      '/members/': [
-        {
-          text: '课题组成员',
-          items: [
-            { text: '成员概览', link: '/members/' },
-            { text: '指导教师', link: '/members/faculty' },
-            { text: '学生成员', link: '/members/students' },
-            { text: '毕业成员与去向', link: '/members/alumni' }
-          ]
-        }
-      ],
-
       '/news/': [
         {
           text: '新闻动态',
