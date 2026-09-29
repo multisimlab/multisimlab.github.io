@@ -58,6 +58,12 @@ export const researchers: DefaultTheme.TeamMember[] = [
     name: '代耀',
     title: '研究员',
     desc: '（邮箱待补充）'
+  },
+  {
+    avatar: '/images/members/avatar-placeholder.svg',
+    name: '杨青青',
+    title: '研究员',
+    desc: '（邮箱待补充）'
   }
 ]
 
@@ -89,6 +95,20 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         avatar: '/images/members/avatar-placeholder.svg',
         name: '李锦辉',
         title: '计算数学（博士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '黄江波',
+        title: '大数据技术与工程（硕士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '黄全盼',
+        title: '大数据技术与工程（硕士）',
         org: '计算机学院',
         desc: '（邮箱待补充）'
       },
