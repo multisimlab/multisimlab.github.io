@@ -61,11 +61,30 @@ export const researchers: DefaultTheme.TeamMember[] = [
   }
 ]
 
-/** 在读学生：仅按入学年级，不区分硕博（年级新在前，当前最新级放最后） */
+/** 在读学生：按年级；同年级内先博士后硕士，再按姓名拼音排序 */
 export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] }[] = [
+  {
+    year: '2023 级',
+    members: [
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '韩熠南',
+        title: '计算数学（博士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      }
+    ]
+  },
   {
     year: '2025 级',
     members: [
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '李锦辉',
+        title: '计算数学（博士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '马逢睿',
@@ -78,6 +97,27 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
   {
     year: '2026 级',
     members: [
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '李瑞鸣',
+        title: '计算数学（博士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '宋雨婷',
+        title: '计算机技术（硕士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '王梓菲',
+        title: '计算机技术（硕士）',
+        org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
       {
         avatar: '/images/members/wu-ying-fei.png',
         name: '吴莹菲',
