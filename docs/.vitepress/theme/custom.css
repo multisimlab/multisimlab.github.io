@@ -140,6 +140,26 @@
     margin-top: 8px;
 }
 
+/* 学院：独立一行，字号更小 */
+.VPTeamMembersItem .desc .member-org {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--vp-c-text-3);
+}
+
+.VPTeamMembersItem .desc .member-org a {
+    color: var(--vp-c-text-3);
+    font-weight: 400;
+}
+
+.VPTeamMembersItem .desc .member-org a:hover {
+    color: var(--vp-c-brand-1);
+}
+
 .members-empty-box {
     max-width: 480px;
     margin: 0 auto;
