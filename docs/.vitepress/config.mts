@@ -7,6 +7,8 @@ export default defineConfig({
 
   description: '面向多学科仿真、科学计算与智能化工程的研究与应用',
 
+  // 用户站 multisimlab/multisimlab.github.io → https://multisimlab.github.io/（根路径，无需 base）
+
   // Windows 上 Node 常把 localhost 解析为 ::1，浏览器却优先连 127.0.0.1，导致 ERR_CONNECTION_REFUSED
   vite: {
     server: {
@@ -78,7 +80,7 @@ export default defineConfig({
             { text: '成员概览', link: '/members/' },
             { text: '指导教师', link: '/members/faculty' },
             { text: '学生成员', link: '/members/students' },
-            { text: '毕业成员', link: '/members/alumni' }
+            { text: '毕业成员与去向', link: '/members/alumni' }
           ]
         }
       ],
