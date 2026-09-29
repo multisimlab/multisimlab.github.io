@@ -72,6 +72,13 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         title: '计算数学（博士）',
         org: '计算机学院',
         desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '王金霖',
+        title: '计算数学（博士）',
+        org: '系统工程学院',
+        desc: '（邮箱待补充）'
       }
     ]
   },
@@ -102,6 +109,20 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         name: '李瑞鸣',
         title: '计算数学（博士）',
         org: '计算机学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '林铭盛',
+        title: '系统科学（硕士）',
+        org: '系统工程学院',
+        desc: '（邮箱待补充）'
+      },
+      {
+        avatar: '/images/members/avatar-placeholder.svg',
+        name: '刘乃铭',
+        title: '系统科学（硕士）',
+        org: '系统工程学院',
         desc: '（邮箱待补充）'
       },
       {
