@@ -29,11 +29,7 @@ export default defineConfig({
       { text: '科研项目', link: '/projects/' },
       { text: '科研成果', link: '/publications/' },
       { text: '课题组成员', link: '/members/' },
-      { text: '新闻动态', link: '/news/' },
-      {
-        text: 'GitHub',
-        link: 'https://github.com/'
-      }
+      { text: '新闻动态', link: '/news/' }
     ],
 
     sidebar: {
@@ -87,12 +83,7 @@ export default defineConfig({
       provider: 'local'
     },
 
-    socialLinks: [
-      {
-        icon: 'github',
-        link: 'https://github.com/'
-      }
-    ],
+    socialLinks: [],
 
     footer: {
       message: '多学科仿真智能课题组',
