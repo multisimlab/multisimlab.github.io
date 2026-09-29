@@ -41,7 +41,7 @@ export const postdocs: DefaultTheme.TeamMember[] = [
     avatar: '/images/members/avatar-placeholder.svg',
     name: '易嘉',
     title: '博士后',
-    org: '系统科学学院',
+    org: '系统工程学院',
     desc: '（邮箱待补充）'
   },
   {
