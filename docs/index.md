@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 多学科仿真智能课题组
-  text: 计算 · 数学 · 仿真 · 人工智能 · 化工
+  text: 计算 · 数学 · 仿真 · <span class="hero-nowrap">人工智能</span> · 化工
   tagline: 面向复杂工程问题的建模、仿真与智能计算
   actions:
     - theme: brand

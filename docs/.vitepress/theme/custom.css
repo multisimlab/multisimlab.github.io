@@ -32,6 +32,13 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    /* 中文按词断行，减少「人 / 工智能」这类拆字 */
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
+.VPHero .text .hero-nowrap {
+    white-space: nowrap;
 }
 
 /* 首页 Hero 简介 */
