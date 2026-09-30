@@ -39,7 +39,7 @@ export const coreMembers: DefaultTheme.TeamMember[] = [
       '多尺度数学建模与高性能计算 · 多物理场智能仿真<br />' +
       '数学物理正反问题 · AI 赋能绿色低碳水处理<br /><br />' +
       '<a href="mailto:luojiu@suda.edu.cn">luojiu@suda.edu.cn</a><br />' +
-      '<a class="member-detail-link" href="https://web.suda.edu.cn/luojiu/" target="_blank" rel="noreferrer">个人主页 →</a>'
+      '<a class="member-detail-link" href="/members/core/luo-jiu">查看详细介绍 →</a>'
   }
 ]
 

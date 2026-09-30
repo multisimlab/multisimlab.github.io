@@ -160,6 +160,37 @@
     color: var(--vp-c-brand-1);
 }
 
+/* 首页 Hero 右侧网状交互区域 */
+
+.VPHomeHero .image-bg {
+    opacity: 0.45;
+    background-image: linear-gradient(
+        -45deg,
+        rgba(37, 99, 235, 0.35) 50%,
+        rgba(6, 182, 212, 0.28) 50%
+    );
+    filter: blur(56px);
+}
+
+.dark .VPHomeHero .image-bg {
+    background-image: linear-gradient(
+        -45deg,
+        rgba(96, 165, 250, 0.28) 50%,
+        rgba(34, 211, 238, 0.2) 50%
+    );
+}
+
+.VPHomeHero .image-container {
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+@media (min-width: 960px) {
+    .VPHomeHero .image-container {
+        min-height: 360px;
+    }
+}
+
 .members-empty-box {
     max-width: 480px;
     margin: 0 auto;

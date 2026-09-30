@@ -14,19 +14,19 @@ hero:
       link: /projects/
 
 features:
-  - icon: ◈
+  - icon: 🔬
     title: 多学科仿真
     details: 面向复杂工程问题开展多物理场建模、数值仿真与工程软件研究。
 
-  - icon: ∑
+  - icon: 🧮
     title: 科学计算
     details: 研究数值算法、高性能计算、科学计算与数学模型。
 
-  - icon: AI
+  - icon: 🤖
     title: 人工智能
     details: 探索人工智能与科学计算、工程仿真及复杂系统建模的交叉融合。
 
-  - icon: ◇
+  - icon: ⚗️
     title: 化工过程与系统
     details: 面向化工过程、水处理及复杂工程系统开展建模、优化与智能控制研究。
 ---
