@@ -90,7 +90,7 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '王金霖',
-        title: '计算数学 (博士)',
+        title: '数学 (博士)',
         desc: orgLine('系统工程学院')
       }
     ]
@@ -101,7 +101,7 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '黄洁华',
-        title: '硕士',
+        title: '计算数学 (硕士)',
         desc: orgLine('计算机学院')
       }
     ]
@@ -118,7 +118,7 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '肖择宁',
-        title: '博士',
+        title: '电子信息 (博士)',
         desc: orgLine('系统工程学院')
       },
       {
@@ -142,7 +142,7 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
       {
         avatar: '/images/members/avatar-placeholder.svg',
         name: '魏逸坤',
-        title: '硕士',
+        title: '计算数学 (硕士)',
         desc: orgLine('计算机学院')
       }
     ]
