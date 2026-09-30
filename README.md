@@ -38,7 +38,7 @@ git push
 
 | 文件 | 说明 |
 | --- | --- |
-| [`docs/members/members-team.ts`](docs/members/members-team.ts) | **成员数据入口**：指导教师、核心成员、博士后、研究人员、在读学生、合作成员、毕业成员 |
+| [`docs/members/members-team.ts`](docs/members/members-team.ts) | **成员数据入口**：指导教师、核心成员、博士后、研究人员、在读学生、毕业成员 |
 | [`docs/members/index.md`](docs/members/index.md) | 成员页布局（一般不用动） |
 | [`docs/members/faculty/heng-yi.md`](docs/members/faculty/heng-yi.md) | 衡益教授详细介绍页 |
 | [`docs/public/images/members/`](docs/public/images/members/) | 成员照片 |
@@ -46,7 +46,7 @@ git push
 **成员体系顺序：**
 
 ```text
-指导教师 → 核心成员 → 博士后 → 研究人员 → 在读学生 → 合作成员 → 毕业成员
+指导教师 → 核心成员 → 博士后 → 研究人员 → 在读学生 → 毕业成员
 ```
 
 **添加 / 修改成员：** 编辑 `members-team.ts` 中对应数组，例如：
@@ -75,7 +75,6 @@ git push
 说明：
 
 - **核心成员**：已在其他高校任教授 / 副教授 / 博导，且长期参与课题组科研
-- **合作成员**：一般合作关系（联合论文、项目等）
 - **毕业成员**：按届表格维护，改 `alumniByYear` 即可
 
 ### 3. 研究方向

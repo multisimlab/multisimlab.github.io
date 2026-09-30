@@ -33,6 +33,7 @@ export default defineConfig({
       { text: '科研项目', link: '/projects/' },
       { text: '科研成果', link: '/publications/' },
       { text: '课题组成员', link: '/members/' },
+      { text: '加入我们', link: '/join/' },
       { text: '新闻动态', link: '/news/' }
     ],
 

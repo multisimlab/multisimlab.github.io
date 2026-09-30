@@ -4,10 +4,3 @@ export interface MemberRow {
   major: string
   destination: string
 }
-
-export interface CollaboratorRow {
-  name: string
-  degree: string
-  affiliation: string
-  note?: string
-}

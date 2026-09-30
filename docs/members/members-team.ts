@@ -1,5 +1,5 @@
 import type { DefaultTheme } from 'vitepress/theme'
-import type { MemberRow, CollaboratorRow } from './types'
+import type { MemberRow } from './types'
 
 /** 学院单独一行展示，避免 VitePress 默认的「职称 @ 学院」 */
 function orgLine(name: string, href?: string) {
@@ -187,25 +187,6 @@ export const studentsByYear: { year: string; members: DefaultTheme.TeamMember[] 
         desc: orgLine('计算机学院')
       }
     ]
-  }
-]
-
-/**
- * 合作成员：已毕业、现就职/就读于其他高校或机构，仍与课题组保持合作
- * （一般合作关系；若已是教授/副教授/博导且长期深度参与，请放入 coreMembers）
- */
-export const collaborators: CollaboratorRow[] = [
-  {
-    name: 'XXX',
-    degree: '博士',
-    affiliation: 'XX 大学',
-    note: '联合科研 / 论文合作'
-  },
-  {
-    name: 'XXX',
-    degree: '硕士',
-    affiliation: 'XX 研究院',
-    note: '项目合作'
   }
 ]
 

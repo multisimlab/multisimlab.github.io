@@ -17,8 +17,7 @@ import {
   postdocs,
   researchers,
   studentsByYear,
-  alumniByYear,
-  collaborators
+  alumniByYear
 } from './members-team'
 </script>
 
@@ -26,7 +25,7 @@ import {
   <VPTeamPageTitle>
     <template #title>课题组成员</template>
     <template #lead>
-      指导教师 · 核心成员 · 博士后 · 研究人员 · 在读学生 · 合作成员 · 毕业成员
+      指导教师 · 核心成员 · 博士后 · 研究人员 · 在读学生 · 毕业成员
     </template>
   </VPTeamPageTitle>
 
@@ -86,21 +85,6 @@ import {
     </template>
   </VPTeamPageSection>
 </VPTeamPage>
-
-<div class="members-alumni-wrap">
-  <div class="members-alumni-head">
-    <div class="title-line"></div>
-    <h2 class="members-alumni-title">合作成员</h2>
-    <p class="members-alumni-lead">
-      已毕业并前往其他高校或科研机构，仍与课题组保持合作的师兄师姐
-    </p>
-  </div>
-
-  <div class="alumni-block">
-    <CollaboratorTable v-if="collaborators.length" :rows="collaborators" />
-    <div v-else class="members-empty-box">暂无合作成员信息</div>
-  </div>
-</div>
 
 <div class="members-alumni-wrap">
   <div class="members-alumni-head">
