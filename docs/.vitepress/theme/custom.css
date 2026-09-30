@@ -181,8 +181,34 @@
 }
 
 .VPHomeHero .image-container {
+    position: relative;
     overflow: hidden;
     border-radius: 28px;
+}
+
+/* 手机：标题在上、网格在下，去掉负边距，避免网格压住大标题 */
+@media (max-width: 959px) {
+    .VPHomeHero.has-image .main {
+        order: 1;
+        z-index: 3;
+    }
+
+    .VPHomeHero.has-image .image {
+        order: 2;
+        margin: 8px auto 28px;
+        z-index: 1;
+    }
+
+    .VPHomeHero .image-container {
+        width: min(300px, 86vw);
+        height: 210px;
+    }
+
+    .VPHomeHero .image-bg {
+        width: 160px;
+        height: 160px;
+        opacity: 0.35;
+    }
 }
 
 @media (min-width: 960px) {
