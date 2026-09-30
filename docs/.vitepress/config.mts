@@ -43,10 +43,10 @@ export default defineConfig({
           text: '研究方向',
           items: [
             { text: '研究方向概览', link: '/research/' },
-            { text: '多物理场仿真', link: '/research/multiphysics' },
-            { text: '科学计算', link: '/research/scientific-computing' },
-            { text: '人工智能', link: '/research/artificial-intelligence' },
-            { text: '化工过程与系统', link: '/research/chemical-engineering' }
+            { text: '多物理场仿真与工业软件', link: '/research/multiphysics' },
+            { text: '数学物理正反问题与科学计算', link: '/research/scientific-computing' },
+            { text: '仿真智能与工业大模型', link: '/research/artificial-intelligence' },
+            { text: '科学与工程应用', link: '/research/chemical-engineering' }
           ]
         }
       ],
