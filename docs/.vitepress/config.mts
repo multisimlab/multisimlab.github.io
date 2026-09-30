@@ -9,6 +9,10 @@ export default defineConfig({
 
   // 用户站 multisimlab/multisimlab.github.io → https://multisimlab.github.io/（根路径，无需 base）
 
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+  ],
+
   // Windows 上 Node 常把 localhost 解析为 ::1，浏览器却优先连 127.0.0.1，导致 ERR_CONNECTION_REFUSED
   vite: {
     server: {
