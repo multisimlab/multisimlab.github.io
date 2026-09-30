@@ -3,7 +3,7 @@
 基于 [VitePress](https://vitepress.dev/) 的课题组官网。
 
 - 本地预览：`https://127.0.0.1:5173/`（运行 `npm run docs:dev` 后）
-- 线上地址：`https://multisimlab.github.io/`
+- 线上地址：[https://multisimlab.github.io/](https://multisimlab.github.io/)
 
 ---
 
